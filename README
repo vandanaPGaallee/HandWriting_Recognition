@@ -1,0 +1,8 @@
+This repository consists of Jupyter notebook and python files which is an implementation to find the similarity between handwritten samples of the known and the questioned
+writer by using predictive models like Linear Regression, Logistic Regression and Neural Networks. The features are obtained from two different sources:
+1. Human Observed features: Features entered by human document examiners manually
+2. GSC features: Features extracted using Gradient Structural Concavity (GSC) algorithm.
+The project applies machine learning to solve the handwriting comparison task in forensics and the target values are scalars that can take two values {1:same writer, 0:different writers}.
+The notebook consists of the steps to preprocess, feature selection, training and evaluation for the given task.
+
+
